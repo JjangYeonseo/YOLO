@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # YOLOv8n 모델 로드
-model = YOLO('yolov8n.pt')  # yolov8n 모델 사용
+model = YOLO('yolov8n.pt') 
 
 # 비디오 파일 경로
 video_path = 'yolovid.mp4'  # 동영상 파일 경로를 지정
