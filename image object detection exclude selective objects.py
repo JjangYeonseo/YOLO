@@ -13,7 +13,7 @@ results = model(image_path)
 # 차량 클래스를 나타내는 클래스 ID 리스트 (COCO 데이터셋 기준)
 vehicle_classes = [2, 3, 5, 7]
 
-# 차량을 제외한 객체만 남기기
+# 차량 제외한 객체만 남기기
 for r in results:
     boxes = r.boxes.xyxy  # Bounding box 좌표
     classes = r.boxes.cls  # 클래스 ID
