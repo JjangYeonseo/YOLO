@@ -11,7 +11,7 @@ image_path = 'test.jpg'
 # 이미지에 대해 예측 수행
 results = model(image_path)
 
-# 클래스별 개수를 저장할 Counter 객체
+# 클래스별 개수 저장할 Counter 객체
 class_counter = Counter()
 
 # 검출된 객체의 개수 출력
