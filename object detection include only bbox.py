@@ -33,7 +33,7 @@ while True:
     # YOLOv8n 모델을 사용하여 객체 탐지
     results = model(frame)
 
-    # 'person' 클래스 ID (COCO dataset에서 'person'은 클래스 ID 0)
+    # 'person' 클래스 ID (COCO dataset에서 person은 클래스 ID 0)
     person_class_id = 0
 
     # 탐지 결과를 필터링하여 'person' 클래스만 남기기
