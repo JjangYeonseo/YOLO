@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.pt') 
 
 # 비디오 파일 경로
-video_path = 'yolovid.mp4'  # 동영상 파일 경로를 지정
+video_path = 'yolovid.mp4'  # 동영상 파일 경로 지정
 
 # 비디오 캡처 열기
 cap = cv2.VideoCapture(video_path)
