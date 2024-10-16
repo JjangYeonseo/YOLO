@@ -3,14 +3,14 @@ import random
 import shutil
 
 # 이미지와 라벨 경로 설정 
-image_dir = 'C:/path_to_your_folder/images'  # 이미지가 있는 폴더 경로
-label_dir = 'C:/path_to_your_folder/labels'  # 라벨 파일이 있는 폴더 경로
+image_dir = 'C:\\Users\\jys20\\Desktop\\martimg\\mart'  # 이미지가 있는 폴더 경로
+label_dir = 'C:\\Users\\jys20\\Desktop\\martimg\\labels'  # 라벨 파일이 있는 폴더 경로
 
 # 학습 및 검증 폴더 경로 설정
-train_image_dir = 'C:/path_to_your_folder/images/train'
-val_image_dir = 'C:/path_to_your_folder/images/val'
-train_label_dir = 'C:/path_to_your_folder/labels/train'
-val_label_dir = 'C:/path_to_your_folder/labels/val'
+train_image_dir = 'C:\\Users\\jys20\\Desktop\\martimg\\train\\trainimg'
+val_image_dir = 'C:\\Users\\jys20\\Desktop\\martimg\\val\\valimg'
+train_label_dir = 'C:\\Users\\jys20\\Desktop\\martimg\\train\\trainlab'
+val_label_dir = 'C:\\Users\\jys20\\Desktop\\martimg\\val\\vallab'
 
 # train/val 디렉토리 생성
 os.makedirs(train_image_dir, exist_ok=True)
